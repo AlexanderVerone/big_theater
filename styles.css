@@ -74,7 +74,7 @@ nav a:hover {
   margin-bottom: 50px;
 }
 .title-description p {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -146,7 +146,6 @@ nav a:hover {
   font-weight: 300;
   font-size: 48px;
   line-height: 65px;
-  text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 100px;
@@ -168,7 +167,7 @@ nav a:hover {
   margin-top: 0;
 }
 .about-description {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
 }
 .about-description,
 .about-numbers {
@@ -195,11 +194,9 @@ nav a:hover {
   font-weight: 300;
   font-size: 48px;
   line-height: 65px;
-  text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin: 0;
-  margin-bottom: 100px;
+  margin: 0 0 100px;
 }
 .staging-list {
   display: flex;
@@ -291,8 +288,7 @@ nav a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: auto;
-  margin-top: 150px;
+  margin: 150px auto auto;
   background: linear-gradient(
       0deg,
       rgba(51, 51, 51, 0.9),
@@ -310,7 +306,7 @@ nav a:hover {
   text-transform: uppercase;
 }
 .awards-text {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -318,8 +314,7 @@ nav a:hover {
 }
 .theater-partners {
   width: 1200px;
-  margin: auto;
-  margin-top: 150px;
+  margin: 150px auto auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -332,8 +327,7 @@ nav a:hover {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   flex-basis: 100%;
-  margin: 0;
-  margin-bottom: 100px;
+  margin: 0 0 100px;
 }
 .theater-partners-list-1line img:not(:last-child),
 .theater-partners-list-2line img:not(:last-child) {
@@ -346,8 +340,7 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   width: 1110px;
-  margin: auto;
-  margin-top: 120px;
+  margin: 120px auto auto;
   align-items: baseline;
   justify-content: space-between;
 }
@@ -358,9 +351,8 @@ nav a:hover {
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin: 0;
   flex-basis: 100%;
-  margin-bottom: 100px;
+  margin: 0 0 100px;
 }
 .maecenas-contacts {
   display: flex;
@@ -430,7 +422,7 @@ nav a:hover {
   align-items: center;
 }
 .maecenas-form-subtitle-and-button p {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -460,13 +452,12 @@ nav a:hover {
 footer {
   width: 1110px;
   border-top: 1px solid #565656;
-  margin: auto;
-  margin-top: 80px;
+  margin: 80px auto auto;
   display: flex;
   justify-content: space-between;
 }
 footer p {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
